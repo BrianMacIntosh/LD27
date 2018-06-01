@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{d9e2aa62-5ece-45fe-88b6-5651237b9d55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Character">
+      <UniqueIdentifier>{aeb9a492-2a25-46ee-b6db-8d5c9e83ee08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Camera">
+      <UniqueIdentifier>{f3c5d3b2-46fe-4e1c-bc73-3601c7e94842}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Map">
+      <UniqueIdentifier>{9d264582-b4d4-41cf-a342-8840a0f3ad33}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="InvAudio.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="InvControls.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="InvEmptyScreen.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="InvScreenManagement.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="InvSpacialData.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="InvTexture.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="PirateParams.h" />
+    <ClInclude Include="Quit.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineScreen.h" />
+    <ClInclude Include="Player.h">
+      <Filter>Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Actor.h">
+      <Filter>Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>Map</Filter>
+    </ClInclude>
+    <ClInclude Include="TileManager.h">
+      <Filter>Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Crawler.h">
+      <Filter>Character</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemManager.h">
+      <Filter>Map</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuScreen.h" />
+    <ClInclude Include="RasterLineIterator.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Character</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOverScreen.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="InvControls.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="InvScreenManagement.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="InvSpacialData.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="InvTexture.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="TenSeconds.cpp" />
+    <ClCompile Include="EngineScreen.cpp" />
+    <ClCompile Include="Actor.cpp">
+      <Filter>Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>Map</Filter>
+    </ClCompile>
+    <ClCompile Include="TileManager.cpp">
+      <Filter>Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Crawler.cpp">
+      <Filter>Character</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemManager.cpp">
+      <Filter>Map</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuScreen.cpp" />
+    <ClCompile Include="RasterLineIterator.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Character</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOverScreen.cpp" />
+  </ItemGroup>
+</Project>
